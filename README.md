@@ -17,7 +17,7 @@ The spaces between the node name and the value are required, otherwise the query
 
 The file will read the user's prompt and will compute the joint probability distribution for all conditions provided by the user. If the users prompt does not contain any relevant queries, the function will return 1, as every set of conditions for the joint probability distribution matches the completely independent event.
 
-If the user inputs multiple values for the same node (e.g. 'IW = true, IW = false'), the true value will be used. If the user wants to evaluate cases where both are true, they should omit the node from the query
+If the user inputs multiple values for the same node (e.g. 'IW = true, IW = false'), the true value will be used. If the user wants to evaluate cases where the input node is either true or false, they should omit the node from the query
 
 ## Changing the probabilities
 The probabilities are defined in the config.txt file within this repository. If a user wishes to try the code with different values, they may be modified. The file format for config.txt is as follows:

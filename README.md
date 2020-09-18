@@ -21,12 +21,12 @@ If the user inputs multiple values for the same node (e.g. 'IW = true, IW = fals
 
 ## Changing the probabilities
 The probabilities are defined in the config.txt file within this repository. If a user wishes to try the code with different values, they may be modified. The file format for config.txt is as follows:
-IW,
-B(IW=T), B(IW=F),
-SM(IW=T), SM(IW=F),
-R(B=T), R(B=F),
-I(B=T), I(B=F),
-G,
-S(I=T, SM=T, G=T), S(TTF), S(TFT), S(FTT), S(TFF), S(FTF), S(FFT), S(FFF),
-M(S=T), M(S=F)
+1. IW,
+2. B(IW=T), B(IW=F),
+3. SM(IW=T), SM(IW=F),
+4. R(B=T), R(B=F),
+5. I(B=T), I(B=F),
+6. G,
+7. S(I=T, SM=T, G=T), S(TTF), S(TFT), S(FTT), S(TFF), S(FTF), S(FFT), S(FFF),
+8. M(S=T), M(S=F)
 
